@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyDigitalGP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.1",
+    "lucide-react": "https://esm.sh/lucide-react@^0.559.0",
+    "react/": "https://esm.sh/react@^19.2.1/"
+  }
+}
+</script>
+</head>
+<body>
+
+    <!-- Top Banner -->
+    <div class="top-banner">
+        <span class="status-icon">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+        </span>
+        All systems live – book your NHS GP appointment now
+    </div>
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container header-container">
+            <a href="#" class="brand-logo">
+                <span class="logo-light">my</span><span class="logo-light">digital</span><span class="logo-accent">gp<span class="dot"></span></span>
+            </a>
+
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="main-nav" id="main-nav">
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Locations</a></li>
+                    <li><a href="#">The Team</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Feedback</a></li>
+                </ul>
+                <div class="nav-buttons">
+                    <button class="button">Register Now <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
+                    <button class="button button-secondary">Login <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-bg-blobs">
+                <div class="blob blob-purple"></div>
+                <div class="blob blob-blue"></div>
+            </div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="brand-logo hero-brand">
+                        <span class="logo-dark">my</span><span class="logo-dark">digital</span><span class="logo-accent">gp<span class="dot"></span></span>
+                    </div>
+                    <h1>Your NHS GP,<br>at your fingertips</h1>
+                    <p class="subtitle">Trusted care, wherever you are.</p>
+                    <div class="hero-buttons">
+                        <button class="button">Register Now <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
+                        <button class="button button-secondary">Login <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <div class="nhs-tag">
+                        <span class="nhs-box">NHS</span>
+                        <span class="nhs-text">Providing NHS services</span>
+                    </div>
+                    <div class="image-mask">
+                        <img src="https://picsum.photos/id/1053/800/800" alt="Smiling man on phone">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="overline">AT YOUR FINGERTIPS</span>
+                    <h2>What MyDigitalGP does differently</h2>
+                </div>
+
+                <div class="features-grid">
+                    <!-- Feature 1 -->
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg>
+                        </div>
+                        <div class="feature-text">
+                            <h3>Book NHS GP appointments online</h3>
+                            <p>Need help from your NHS GP? Submit an online consultation in just a few clicks, at a time that suits you.</p>
+                        </div>
+                    </div>
+
+                    <!-- Feature 2 -->
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>
+                        </div>
+                        <div class="feature-text">
+                            <h3>Manage Prescriptions</h3>
+                            <p>Order and track your prescriptions easily, all in one secure place.</p>
+                        </div>
+                    </div>
+
+                    <!-- Feature 3 -->
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg>
+                        </div>
+                        <div class="feature-text">
+                            <h3>Access secure medical advice</h3>
+                            <p>Get trusted NHS guidance and support through a safe, confidential platform.</p>
+                        </div>
+                    </div>
+
+                    <!-- Feature 4 -->
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                        </div>
+                        <div class="feature-text">
+                            <h3>Your NHS care, made convenient</h3>
+                            <p>Get support from an NHS GP whether you're at home, at work, or on the go.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section">
+            <div class="container">
+                <div class="about-top-buttons">
+                    <button class="button">Register Now <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
+                    <button class="button button-secondary">Login <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
+                </div>
+
+                <div class="about-card">
+                    <div class="about-content">
+                        <span class="overline">ABOUT US</span>
+                        <h2>Why we're here</h2>
+                        <p>We created MyDigitalGP to make NHS care simple, fast, and accessible. No waiting rooms or fuss - just trusted care at your fingertips.</p>
+                        <button class="button">About Us <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://picsum.photos/id/338/1000/800" alt="Woman using phone">
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section class="how-it-works-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="overline">HOW IT WORKS</span>
+                    <h2>Getting started is simple</h2>
+                    <p class="subtitle">Book an NHS GP appointment in minutes and leave waiting rooms behind.</p>
+                </div>
+
+                <div class="steps-grid">
+                    <!-- Step 1 -->
+                    <div class="step-card">
+                        <div class="step-number">
+                            <span>01</span>
+                            <div class="step-line"></div>
+                        </div>
+                        <h3>Register online</h3>
+                        <div class="step-image">
+                            <img src="https://picsum.photos/id/64/400/300" alt="Register online">
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="step-card">
+                        <div class="step-number">
+                            <span>02</span>
+                            <div class="step-line"></div>
+                        </div>
+                        <h3>Submit an online consultation</h3>
+                        <div class="step-image">
+                            <img src="https://picsum.photos/id/101/400/300" alt="Submit an online consultation">
+                        </div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="step-card">
+                        <div class="step-number">
+                            <span>03</span>
+                        </div>
+                        <h3>Speak to an NHS GP</h3>
+                        <div class="step-image">
+                            <img src="https://picsum.photos/id/342/400/300" alt="Speak to an NHS GP">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="steps-buttons">
+                    <button class="button">Register Now <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
+                    <button class="button button-secondary">Login <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Community Banner -->
+        <section class="community-section">
+            <div class="community-bg">
+                <img src="https://picsum.photos/id/158/1600/900" alt="Community">
+                <div class="community-overlay"></div>
+            </div>
+            <div class="container community-content">
+                <div class="community-text">
+                    <p>We're proud to make a real difference in communities across England. From delivering essential services to innovating for better outcomes, our work touches thousands of lives every day.</p>
+                </div>
+                <div class="floating-card">
+                    <div class="floating-text">
+                        <h3>Have any questions?</h3>
+                        <p>Get in touch with our team</p>
+                    </div>
+                    <button class="button">About Us <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Brand Column -->
+                <div class="footer-col brand-col">
+                    <div class="brand-logo">
+                        <span class="logo-light">my</span><span class="logo-light">digital</span><span class="logo-accent">gp<span class="dot"></span></span>
+                    </div>
+                    <p class="footer-desc">MyDigitalGP works in partnership with the NHS to provide secure, accessible NHS primary care online.</p>
+                    <button class="button">Register Now <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-col">
+                    <h4>QUICK LINKS</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Meet the Team</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Our Locations</a></li>
+                        <li><a href="#">Complaints</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Us -->
+                <div class="footer-col">
+                    <h4>CONTACT US</h4>
+                    <div class="contact-info">
+                        <p><strong>0333 332 0445</strong></p>
+                        <p>tpplc.mydigitalgp@nhs.net</p>
+                        <div class="opening-hours">
+                            <p><strong>Opening Hours</strong></p>
+                            <div class="hours-row">
+                                <span>Monday - Friday</span>
+                                <span>9am - 5pm</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NHS Badge -->
+                <div class="footer-col nhs-col">
+                    <div class="nhs-tag-large">
+                        <span class="nhs-box">NHS</span>
+                        <span class="nhs-text">Providing NHS services</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>Copyright Notice: © 2025 MyDigitalGP. All rights reserved.</p>
+                <div class="legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Patient Confidentiality</a>
+                    <a href="#">Accessibility</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
