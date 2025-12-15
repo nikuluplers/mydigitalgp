@@ -380,191 +380,7 @@ a:hover {
     text-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 
-/* ABOUT PAGE STYLES */
-
-.about-hero-section {
-    background-color: #eef2f6;
-    position: relative;
-    padding: 60px 0;
-    overflow: hidden;
-}
-
-.about-intro-grid {
-    position: relative;
-    z-index: 10;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    margin-bottom: 60px;
-}
-
-.about-intro-desc {
-    font-size: 20px;
-    color: #4b5563;
-}
-.about-intro-desc p {
-    margin-bottom: 30px;
-}
-
-/* Mission Cards */
-.mission-cards-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 30px;
-    position: relative;
-    z-index: 10;
-}
-
-.mission-card {
-    background-color: white;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-}
-
-.mission-card-image {
-    width: 100%;
-    height: 300px;
-    position: relative;
-}
-.mission-card-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.overlay {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(to top, rgba(0, 47, 92, 0.3), transparent);
-}
-
-.mission-card-content {
-    padding: 40px;
-}
-
-/* Values Section */
-.values-section-full {
-    padding: 80px 0;
-    background-color: white;
-}
-
-.values-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 40px;
-    margin-bottom: 60px;
-}
-
-.value-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.value-icon {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 20px;
-    color: #003087;
-}
-
-.mid-cta-block {
-    margin-top: 80px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-
-.large-text {
-    font-size: 24px;
-    line-height: 1.5;
-    color: #4b5563;
-}
-
-.buttons-row {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-/* Services Grid */
-.services-section-grid {
-    padding: 80px 0;
-    background: linear-gradient(to bottom, #eff6ff, white);
-}
-.services-section-grid h2 {
-    margin-bottom: 60px;
-}
-
-.service-row {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    margin-bottom: 80px;
-    align-items: center;
-}
-
-.service-image {
-    width: 100%;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-}
-.service-image img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.small-p {
-    font-size: 16px;
-    color: #6b7280;
-    margin-top: 20px;
-}
-
-/* Purple CTA Banner */
-.purple-cta-banner {
-    background: linear-gradient(135deg, #5b21b6 0%, #7c3aed 100%);
-    color: white;
-    padding: 60px 0;
-    position: relative;
-    overflow: hidden;
-}
-
-.purple-cta-content {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    position: relative;
-    z-index: 10;
-}
-
-.purple-cta-text h2 {
-    color: white;
-    margin-bottom: 20px;
-}
-.purple-cta-text p {
-    font-size: 20px;
-    color: #e9d5ff;
-    margin-bottom: 40px;
-}
-
-.purple-cta-image {
-    border-radius: 20px;
-    overflow: hidden;
-    height: 300px;
-    width: 100%;
-    position: relative;
-}
-.purple-cta-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-
-/* Common Features Styles */
+/* Features Section (Home) */
 .features-section {
     padding: 80px 0;
     background-color: white;
@@ -655,7 +471,7 @@ a:hover {
     object-fit: cover;
 }
 
-/* How It Works */
+/* How It Works (Home) */
 .how-it-works-section {
     padding: 80px 0;
     background-color: rgba(239, 246, 255, 0.5);
@@ -713,52 +529,7 @@ a:hover {
     gap: 15px;
 }
 
-/* Team Section (New) */
-.team-section {
-    padding: 80px 0;
-    background-color: #f9fafb;
-}
-
-.team-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 30px;
-}
-
-.team-card {
-    background-color: white;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-}
-.team-card:hover {
-    transform: translateY(-5px);
-}
-
-.team-image {
-    width: 100%;
-    height: 300px;
-    overflow: hidden;
-}
-.team-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.team-info {
-    padding: 24px;
-    text-align: center;
-}
-.team-info p {
-    margin-bottom: 0;
-    color: #6b7280;
-    font-size: 16px;
-}
-
-
-/* Community Section */
+/* Community Section (Home) */
 .community-section {
     position: relative;
     padding: 80px 0;
@@ -909,8 +680,240 @@ a:hover {
     color: white;
 }
 
+/* =========================================================================
+   ABOUT US PAGE SPECIFIC STYLES
+   ========================================================================= */
 
-/* Media Queries for Desktop (min-width: 1024px) */
+.about-hero-section {
+    background-color: #eef2f6;
+    position: relative;
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.about-intro-grid {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.about-intro-desc {
+    font-size: 20px;
+    color: #4b5563;
+}
+.about-intro-desc p {
+    margin-bottom: 30px;
+}
+
+/* Mission Cards */
+.mission-cards-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    position: relative;
+    z-index: 10;
+}
+
+.mission-card {
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.mission-card-image {
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.mission-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0, 47, 92, 0.3), transparent);
+}
+
+.mission-card-content {
+    padding: 40px;
+}
+
+/* Values Section (Full) */
+.values-section-full {
+    padding: 80px 0;
+    background-color: white;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.value-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.value-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+    color: #003087;
+}
+
+/* Middle CTA Block */
+.mid-cta-block {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.large-text {
+    font-size: 24px;
+    line-height: 1.5;
+    color: #4b5563;
+}
+
+.buttons-row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Services Grid (Zig Zag) */
+.services-section-grid {
+    padding: 80px 0;
+    background: linear-gradient(to bottom, #eff6ff, white);
+}
+.services-section-grid h2 {
+    margin-bottom: 60px;
+}
+
+.service-row {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 80px;
+    align-items: center;
+}
+
+.service-image {
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.service-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.small-p {
+    font-size: 16px;
+    color: #6b7280;
+    margin-top: 20px;
+}
+
+/* Team Section (Shared/About) */
+.team-section {
+    padding: 80px 0;
+    background-color: #f9fafb;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.team-card {
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.team-card:hover {
+    transform: translateY(-5px);
+}
+
+.team-image {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.team-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.team-info {
+    padding: 24px;
+    text-align: center;
+}
+.team-info p {
+    margin-bottom: 0;
+    color: #6b7280;
+    font-size: 16px;
+}
+
+/* Purple CTA Banner */
+.purple-cta-banner {
+    background: linear-gradient(135deg, #5b21b6 0%, #7c3aed 100%);
+    color: white;
+    padding: 60px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.purple-cta-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+    z-index: 10;
+}
+
+.purple-cta-text h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+.purple-cta-text p {
+    font-size: 20px;
+    color: #e9d5ff;
+    margin-bottom: 40px;
+}
+
+.purple-cta-image {
+    border-radius: 20px;
+    overflow: hidden;
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+.purple-cta-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* =========================================================================
+   MEDIA QUERIES (DESKTOP min-width: 1024px)
+   ========================================================================= */
 @media (min-width: 1024px) {
     /* Restore requested desktop sizes */
     
